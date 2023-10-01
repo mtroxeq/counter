@@ -3,6 +3,8 @@ import Nav from './Nav';
 import Logo from './Logo.js';
 import Start from './Start.js';
 import Footer from './Footer';
+
+
 function App() {
   return (
     <body>
@@ -14,7 +16,6 @@ function App() {
       <Start />
       <Footer />
     </body>
-    
   );
 }
 

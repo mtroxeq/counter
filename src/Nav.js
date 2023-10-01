@@ -1,12 +1,14 @@
 import './App.css';
+import { Link } from 'react-router-dom';
+
 
 function Nav() {
     return (
         <nav>
-            <a href="#">Modele</a>
-            <a href="#">Katalog</a>
-            <a href="#">Kontakt</a>
-            <a href="#">Historia</a>
+            <Link to='/Models'>Modele</Link>
+            <Link to='/'>Ubezpieczenie</Link>
+            <Link to='/'>Kontakt</Link>
+            <Link to='/'>Historia</Link>
         </nav>
     );
   }
