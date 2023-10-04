@@ -1,9 +1,8 @@
 import './App.css';
-import Nav from './Nav';
 import Logo from './Logo.js';
 import Start from './Start.js';
 import Footer from './Footer';
-
+import Nav from './Nav';
 
 function App() {
   return (
