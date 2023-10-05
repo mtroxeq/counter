@@ -1,6 +1,7 @@
+import React from "react";
 function Start(){
     return(
-        <article id="start">
+        <article class="start">
             <h3>
                 O nas
             </h3>
